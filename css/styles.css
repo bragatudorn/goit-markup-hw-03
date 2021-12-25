@@ -23,6 +23,7 @@ body {
   background: var(--primary-white-color);
   padding-top: 24px;
   padding-bottom: 25px;
+  border: 1px solid #ececec;
 }
 .header-list {
   display: flex;
