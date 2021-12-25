@@ -1,0 +1,333 @@
+:root {
+  --body-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --discription-color: #757575;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--body-text-color);
+  width: 1600px;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header {
+  background: var(--primary-white-color);
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+.header-list {
+  display: flex;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header-connect {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.container3 {
+  width: 1200px;
+  margin: 0 auto;
+}
+.ul-btn {
+  justify-content: center;
+}
+
+.container2 {
+}
+.container1 {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 94px;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+/*------------ logo-------------*/
+
+.first-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--body-text-color);
+  margin-right: 93px;
+}
+
+/*--------------HEADER-------------*/
+
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--body-text-color);
+}
+
+.header-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--discription-color);
+}
+
+.foother-address:hover,
+.foother-address:focus,
+.foother-tel:hover,
+.foother-tel:focus,
+.header-tel:hover,
+.header-link:hover,
+.header-tel:focus,
+.header-link:focus {
+  color: var(--accent-color);
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+.header-link:active {
+  color: var(--accent-color);
+}
+
+/*----------------------hero-----------*/
+.hero {
+  background: #2f303a;
+  padding: 200px 452px;
+}
+
+.hero-btn {
+  background: var(--accent-color);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  cursor: pointer;
+  min-width: 200px;
+  min-height: 50px;
+  padding: 10px 32px;
+  margin-left: 248px;
+}
+.hero-btn:hover {
+  background-color: #188ce8;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  max-width: 696px;
+  margin-bottom: 30px;
+}
+
+/*----------------- abaut -------------------*/
+.section {
+  padding: 94px;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--body-text-color);
+  margin-bottom: 10px;
+}
+
+.team-item:not(:last-child),
+.section-item:not(:last-child) {
+  margin-right: 30px;
+  width: 370px;
+}
+.item-grosse {
+  max-width: 270px;
+}
+.section-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--discription-color);
+}
+
+/*--------------- team/occupation -------------*/
+.occupation {
+  margin-bottom: 94px;
+}
+.team {
+  background: #f5f4fa;
+  padding: 94px;
+}
+.occupation-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--body-text-color);
+  margin-bottom: 50px;
+}
+
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--body-text-color);
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.team-description {
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--discription-color);
+}
+
+.team-item {
+  height: 368px;
+  background: var(--primary-white-color);
+  /* material shadow v1 */
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+/*--------------- foother -------------*/
+.foother {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #2f303a;
+}
+
+.foother-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+}
+
+.foother-address {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+}
+
+.foother-tel {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.foother-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.foother-margin {
+  margin-top: 20px;
+}
+
+/*-------------portofolio-----------*/
+
+.portofolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--body-text-color);
+  margin-bottom: 4px;
+}
+
+.portofolio-item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+.portofolio-pad {
+  padding: 20px 24px;
+}
+.portofolio-item {
+  background: var(--primary-white-color);
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+.portofolio-item:not(:nth-child(n + 6)) {
+  margin-bottom: 30px;
+}
+.portofolio-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--discription-color);
+}
+
+.portofolio-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--body-text-color);
+  cursor: pointer;
+  padding: 6px 22px;
+  margin: 94px 0px 50px 8px;
+}
+.portofolio-btn:hover,
+.portofolio-btn:focus {
+  color: var(--primary-white-color);
+  background: var(--accent-color);
+}
