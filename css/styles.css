@@ -8,7 +8,6 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--body-text-color);
-  width: 1600px;
 }
 
 .list {
@@ -39,21 +38,11 @@ body {
   align-items: center;
   margin-left: auto;
 }
-.container3 {
-  width: 1200px;
-  margin: 0 auto;
-}
+
 .ul-btn {
   justify-content: center;
 }
 
-.container2 {
-}
-.container1 {
-  width: 1200px;
-  margin: 0 auto;
-  margin-bottom: 94px;
-}
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -126,7 +115,7 @@ body {
 /*----------------------hero-----------*/
 .hero {
   background: #2f303a;
-  padding: 200px 452px;
+  padding: 200px 0px;
 }
 
 .hero-btn {
@@ -145,7 +134,7 @@ body {
   min-width: 200px;
   min-height: 50px;
   padding: 10px 32px;
-  margin-left: 248px;
+  margin: 0 auto;
 }
 .hero-btn:hover {
   background-color: #188ce8;
@@ -160,12 +149,14 @@ body {
   text-transform: uppercase;
   color: var(--primary-white-color);
   max-width: 696px;
+  margin: 0 auto;
   margin-bottom: 30px;
 }
 
 /*----------------- abaut -------------------*/
 .section {
-  padding: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .section-title {
   font-weight: 700;
@@ -199,7 +190,6 @@ body {
 }
 .team {
   background: #f5f4fa;
-  padding: 94px;
 }
 .occupation-title,
 .team-title {
@@ -304,6 +294,7 @@ body {
   background: var(--primary-white-color);
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+  width: 370px;
 }
 .portofolio-item:not(:nth-child(n + 6)) {
   margin-bottom: 30px;
@@ -316,8 +307,10 @@ body {
 }
 
 .portofolio-btn {
+  background: #f5f4fa;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+  border-width: 0;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
@@ -325,10 +318,11 @@ body {
   color: var(--body-text-color);
   cursor: pointer;
   padding: 6px 22px;
-  margin: 94px 0px 50px 8px;
+  margin: 0px 0px 50px 8px;
 }
 .portofolio-btn:hover,
 .portofolio-btn:focus {
+  cursor: pointer;
   color: var(--primary-white-color);
   background: var(--accent-color);
 }
