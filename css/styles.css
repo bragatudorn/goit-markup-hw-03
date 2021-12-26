@@ -131,10 +131,10 @@ body {
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
   cursor: pointer;
-  min-width: 200px;
-  min-height: 50px;
   padding: 10px 32px;
   margin: 0 auto;
+  border-width: 0;
+  border-radius: 4px;
 }
 .hero-btn:hover {
   background-color: #188ce8;
@@ -308,6 +308,7 @@ body {
 
 .portofolio-btn {
   background: #f5f4fa;
+  border-radius: 4px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   border-width: 0;
