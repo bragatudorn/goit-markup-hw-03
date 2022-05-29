@@ -118,8 +118,7 @@ body {
 
 .hero-btn {
   background: var(--accent-color);
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-family: "Roboto", sans-serif;  
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -179,7 +178,7 @@ body {
 }
 
 .section-text {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -254,8 +253,7 @@ body {
 }
 
 .foother-address {
-  font-style: normal;
-  font-weight: normal;
+  font-style: normal;  
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -263,8 +261,7 @@ body {
 }
 
 .foother-tel {
-  font-style: normal;
-  font-weight: normal;
+  font-style: normal;  
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
