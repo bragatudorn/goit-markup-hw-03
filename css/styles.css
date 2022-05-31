@@ -66,7 +66,10 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--body-text-color);
-  margin-right: 93px;
+  
+}
+.site-nav {
+margin-left: 93px;
 }
 
 /*--------------HEADER-------------*/
@@ -157,7 +160,7 @@ body {
   padding-bottom: 94px;
 }
 
-.section-title {
+.features-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -169,15 +172,24 @@ body {
 
 .team-item:not(:last-child),
 .section-item:not(:last-child) {
-  margin-right: 30px;
-  width: 370px;
+  margin-right: 30px;  
 }
 
-.item-grosse {
-  max-width: 270px;
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 
-.section-text {
+.features-item{
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+  
+
+.features-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -187,14 +199,13 @@ body {
 
 /*--------------- team/occupation -------------*/
 .occupation {
-  padding-bottom: 94px;
+  padding-top: 0px;
 }
 .team {
   background: #f5f4fa;
 }
 
-.occupation-title,
-.team-title {
+.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -292,13 +303,15 @@ body {
 }
 
 .portfolio-pad {
-  padding: 20px 24px;
+  padding: 20px 24px;  
+  border: 1px solid #eeeeee;
+  border-top: none;  
 }
 
 .portfolio-item {
   background: var(--primary-white-color);
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
+  /*border: 1px solid #eeeeee;
+  box-sizing: border-box;*/
   width: 370px;
 }
 
@@ -325,17 +338,32 @@ body {
   letter-spacing: 0.03em;
   color: var(--body-text-color);
   cursor: pointer;
-  padding: 6px 22px;
-  margin-left: 8px;
+  padding: 6px 22px;  
 }
 
 .ul-btn {
   justify-content: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
+
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   cursor: pointer;
   color: var(--primary-white-color);
   background: var(--accent-color);
+}
+
+.button-item:not(:last-child) {
+  margin-right: 8px
+ }
+
+ .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
